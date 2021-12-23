@@ -1,2 +1,4 @@
 terms_and_conditions
 *.xlsx
+*.csv
+.ipynb_checkpoints
