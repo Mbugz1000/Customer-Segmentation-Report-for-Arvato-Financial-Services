@@ -3,7 +3,7 @@
 Run the following command to set up the environment for this project. 
 
 ```
-conda create --name project_1_udacity python==3.7.3 && conda activate project_1_udacity && conda install pandas jupyterlab altair "pandas-profiling>2.0" geopy sklearn lightgbm
+conda create --name project_4_udacity python==3.7.3 && conda activate project_4_udacity && conda install pandas jupyterlab altair "pandas-profiling>2.0" pytest scikit-learn lightgbm hdbscan
 ```
 
 Download the datasets used in this project here:
