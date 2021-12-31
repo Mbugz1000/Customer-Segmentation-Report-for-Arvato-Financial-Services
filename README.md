@@ -3,7 +3,7 @@
 Run the following command to set up the environment for this project. 
 
 ```
-conda create --name project_4_udacity python==3.7.3 && conda activate project_4_udacity && conda install pandas jupyterlab altair "pandas-profiling>2.0" pytest scikit-learn lightgbm hdbscan
+conda create --name project_4_udacity python==3.7.3 && conda activate project_4_udacity && conda install pandas jupyterlab altair "pandas-profiling>2.0" pytest scikit-learn lightgbm hdbscan catboost shap umap-learn imbalanced-learn
 ```
 
 Download the datasets used in this project here:
@@ -58,7 +58,11 @@ The results of this analysis were as follows:
         1. Type of property
 
 ## Licensing, Authors & Acknowledgements
-- [Think Stats: Exploratory Data Analysis by Allen B. Downey](https://www.amazon.com/gp/product/1491907339/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491907339&linkCode=as2&tag=greenteapre01-20&linkId=JVSYKQHYSUIEYRHL)
-- [Statistical Significance with the help of Python by Jeremiah Lutes](https://towardsdatascience.com/statistical-significance-with-the-help-of-python-1fbb318ce216)
-- [Inside AirBnb Project by Murray Cox](http://insideairbnb.com/about.html)
-
+- [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)
+- [AZ Germany grid](https://www.regionale-marktdaten.de/az-deutschland-raster/)
+- [PLZ8 for Germany](https://www.regionale-marktdaten.de/plz8/)
+- [How HDBSCAN Works, HDBSCAN Docs](https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html)
+- [CatBoost Docs](https://catboost.ai/en/docs/)
+- [Understanding UMAP by Andy Coenen and Adam Pearce](https://pair-code.github.io/understanding-umap/)
+- [tSNE vs. UMAP: Global Structure by Nikolay Oskolkov](https://towardsdatascience.com/tsne-vs-umap-global-structure-4d8045acba17)
+- [How Exactly UMAP Works by Nikolay Oskolkov](https://towardsdatascience.com/how-exactly-umap-works-13e3040e1668)
