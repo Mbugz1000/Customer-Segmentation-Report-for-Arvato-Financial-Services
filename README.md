@@ -3,7 +3,7 @@
 Run the following command to set up the environment for this project. 
 
 ```
-conda create --name project_4_udacity python==3.7.3 && conda activate project_4_udacity && conda install pandas jupyterlab altair "pandas-profiling>2.0" pytest scikit-learn lightgbm hdbscan catboost shap umap-learn imbalanced-learn
+conda create --name project_4_udacity python==3.7.3 && conda activate project_4_udacity && conda install pandas jupyterlab altair "pandas-profiling>2.0" pytest scikit-learn lightgbm hdbscan shap umap-learn imbalanced-learn
 ```
 
 Download the datasets used in this project here:
@@ -58,11 +58,12 @@ The results of this analysis were as follows:
         1. Type of property
 
 ## Licensing, Authors & Acknowledgements
-- [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)
+- [How to Use t-SNE Effectively by Martin Wattenberg,Fernanda Viégas & Ian Johnson](https://distill.pub/2016/misread-tsne/)
+- [How HDBSCAN Works - HDBSCAN Docs](https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html)
+- [Understanding UMAP by Andy Coenen & Adam Pearce](https://pair-code.github.io/understanding-umap/)
+- [Using UMAP for Clustering - UMAP Docs](https://umap-learn.readthedocs.io/en/latest/clustering.html)
+- [tSNE vs. UMAP: Global Structure by Nikolay Oskolkov](https://towardsdatascience.com/tsne-vs-umap-global-structure-4d8045acba17)
+- [The right way of using SMOTE with Cross-validation by KSV Muralidhar](https://towardsdatascience.com/the-right-way-of-using-smote-with-cross-validation-92a8d09d00c7)
+- [Compare over-sampling samplers - ImbLearn Docs](https://imbalanced-learn.org/stable/auto_examples/over-sampling/plot_comparison_over_sampling.html)
 - [AZ Germany grid](https://www.regionale-marktdaten.de/az-deutschland-raster/)
 - [PLZ8 for Germany](https://www.regionale-marktdaten.de/plz8/)
-- [How HDBSCAN Works, HDBSCAN Docs](https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html)
-- [CatBoost Docs](https://catboost.ai/en/docs/)
-- [Understanding UMAP by Andy Coenen and Adam Pearce](https://pair-code.github.io/understanding-umap/)
-- [tSNE vs. UMAP: Global Structure by Nikolay Oskolkov](https://towardsdatascience.com/tsne-vs-umap-global-structure-4d8045acba17)
-- [How Exactly UMAP Works by Nikolay Oskolkov](https://towardsdatascience.com/how-exactly-umap-works-13e3040e1668)
