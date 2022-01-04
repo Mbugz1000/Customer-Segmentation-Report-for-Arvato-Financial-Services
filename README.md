@@ -33,7 +33,9 @@ To interact with the project, take the following steps:
 
 ## Results Summary
 In summary:
-1. The full Customer Segmentation report can be found [here](). However, briefly, 7 Clusters were discovered that have
+1. The full Customer Segmentation report can be found [here](https://medium.com/@km.thairu/boosting-sales-through-targeted-marketing-with-arvato-financial-services-cd8043a04046). 
+   
+    However, briefly, 7 Clusters were discovered that have
    a proportion of customers that is x2 higher the proportion of customers in the general population (Customer Factor 
    of 2) as shown below:
    
