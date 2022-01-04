@@ -13227,10 +13227,10 @@ div#notebook {
 
  
  
-<div id="eed46b8a-ce65-4bcf-b911-5f216c24e14d"></div>
+<div id="e8d678a9-1c47-4ae5-bf14-2e052e32433d"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#eed46b8a-ce65-4bcf-b911-5f216c24e14d');
+var element = $('#e8d678a9-1c47-4ae5-bf14-2e052e32433d');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "a37f2b5f5e2f49fc912856c6d2814386", "version_major": 2, "version_minor": 0}
@@ -13249,10 +13249,10 @@ var element = $('#eed46b8a-ce65-4bcf-b911-5f216c24e14d');
 
  
  
-<div id="6d8a0eff-c20e-4175-8ee6-c1e5203019e8"></div>
+<div id="5042093d-f7c1-4dbd-94a6-63982cc38fb9"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#6d8a0eff-c20e-4175-8ee6-c1e5203019e8');
+var element = $('#5042093d-f7c1-4dbd-94a6-63982cc38fb9');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "75be756d815a4272b3cfaf402e548419", "version_major": 2, "version_minor": 0}
@@ -13271,10 +13271,10 @@ var element = $('#6d8a0eff-c20e-4175-8ee6-c1e5203019e8');
 
  
  
-<div id="d2e2d211-68e1-485f-bdc2-31b60178da71"></div>
+<div id="b77b2b85-7688-42db-8f87-e8637c30b3e0"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#d2e2d211-68e1-485f-bdc2-31b60178da71');
+var element = $('#b77b2b85-7688-42db-8f87-e8637c30b3e0');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "1333410bf7ad400398239bc4e83384d6", "version_major": 2, "version_minor": 0}
@@ -13293,10 +13293,10 @@ var element = $('#d2e2d211-68e1-485f-bdc2-31b60178da71');
 
  
  
-<div id="95bb654e-0417-42e0-967d-fd8bac52ba8b"></div>
+<div id="5150b991-7e76-46e8-ad16-695527a61264"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#95bb654e-0417-42e0-967d-fd8bac52ba8b');
+var element = $('#5150b991-7e76-46e8-ad16-695527a61264');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "15ece57a52f24ed5aae8ff1e142220a8", "version_major": 2, "version_minor": 0}
@@ -14887,13 +14887,32 @@ Wall time: 44min 11s
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[224]:</div>
+<div class="prompt input_prompt">In&nbsp;[258]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">viz_df</span><span class="p">[[</span><span class="s1">&#39;Embeddings&#39;</span><span class="p">,</span> <span class="s1">&#39;Feature Selection&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">viz_df</span><span class="p">[[</span><span class="s1">&#39;Embeddings&#39;</span><span class="p">,</span> <span class="s1">&#39;Feature Selection&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
 <span class="n">viz_df</span><span class="o">.</span><span class="n">SMOTE</span> <span class="o">=</span> <span class="n">viz_df</span><span class="o">.</span><span class="n">SMOTE</span><span class="o">.</span><span class="n">replace</span><span class="p">({</span><span class="s1">&#39;borderline&#39;</span><span class="p">:</span> <span class="s1">&#39;Borderline&#39;</span><span class="p">,</span> <span class="s1">&#39;normal&#39;</span><span class="p">:</span> <span class="s1">&#39;Normal&#39;</span><span class="p">,</span> <span class="s1">&#39;Kmeans&#39;</span><span class="p">:</span> <span class="s1">&#39;KMeans&#39;</span><span class="p">})</span>
-<span class="n">bars</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">viz_df</span><span class="p">)</span><span class="o">.</span><span class="n">mark_bar</span><span class="p">(</span><span class="n">opacity</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;AUC&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;AUC Scores&#39;</span><span class="p">,</span> <span class="n">stack</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Scale</span><span class="p">(</span><span class="n">domain</span><span class="o">=</span><span class="p">[</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.8</span><span class="p">])),</span> <span class="n">x</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Embeddings&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Training on 10d Embedding Space&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">labelAngle</span><span class="o">=-</span><span class="mi">0</span><span class="p">)),</span> <span class="n">color</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s1">&#39;Feature Selection&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Feature Selection Step&#39;</span><span class="p">),</span> <span class="n">column</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="s1">&#39;SMOTE&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;SMOTE Methods&#39;</span><span class="p">))</span><span class="o">.</span><span class="n">properties</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">250</span><span class="p">)</span>
-<span class="n">bars</span>
+
+<span class="n">bars</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">()</span><span class="o">.</span><span class="n">mark_bar</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+    <span class="n">y</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s1">&#39;AUC&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;AUC Scores&#39;</span><span class="p">,</span> <span class="n">stack</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Scale</span><span class="p">(</span><span class="n">domain</span><span class="o">=</span><span class="p">[</span><span class="mf">0.45</span><span class="p">,</span><span class="mf">0.8</span><span class="p">])),</span> 
+    <span class="n">x</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s1">&#39;Embeddings&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Training on 10d Embedding Space&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Axis</span><span class="p">(</span><span class="n">labelAngle</span><span class="o">=-</span><span class="mi">0</span><span class="p">)),</span> 
+<span class="p">)</span><span class="o">.</span><span class="n">properties</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">250</span><span class="p">)</span>
+
+<span class="n">text</span> <span class="o">=</span> <span class="n">bars</span><span class="o">.</span><span class="n">mark_text</span><span class="p">(</span>
+    <span class="n">align</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span>
+    <span class="n">baseline</span><span class="o">=</span><span class="s1">&#39;middle&#39;</span><span class="p">,</span>
+    <span class="n">dy</span><span class="o">=</span> <span class="o">+</span><span class="mi">10</span><span class="p">,</span>  <span class="c1"># Nudges text to right so it doesn&#39;t appear on top of the bar</span>
+    <span class="n">color</span><span class="o">=</span><span class="s1">&#39;white&#39;</span> <span class="p">,</span>
+    <span class="n">thickness</span><span class="o">=</span><span class="mi">12</span>
+<span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+    <span class="n">text</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Text</span><span class="p">(</span><span class="s1">&#39;AUC:N&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;.4f&quot;</span><span class="p">)</span>
+<span class="p">)</span>
+<span class="n">bars</span> <span class="c1">#+ text</span>
+
+<span class="c1"># Draw the chart.</span>
+<span class="n">alt</span><span class="o">.</span><span class="n">layer</span><span class="p">(</span><span class="n">bars</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">viz_df</span><span class="p">[</span><span class="n">viz_df</span><span class="p">[</span><span class="s2">&quot;Feature Selection&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;False&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">facet</span><span class="p">(</span>
+    <span class="n">column</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="s1">&#39;SMOTE&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;SMOTE Methods&#39;</span><span class="p">)</span>
+<span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14906,18 +14925,18 @@ Wall time: 44min 11s
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[224]:</div>
+    <div class="prompt output_prompt">Out[258]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-40d37c59d7d84d75b3556ed9ef942bcf"></div>
+<div id="altair-viz-39af9c5c3efb4016b9157479c82b5b6d"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-40d37c59d7d84d75b3556ed9ef942bcf") {
-      outputDiv = document.getElementById("altair-viz-40d37c59d7d84d75b3556ed9ef942bcf");
+    if (outputDiv.id !== "altair-viz-39af9c5c3efb4016b9157479c82b5b6d") {
+      outputDiv = document.getElementById("altair-viz-39af9c5c3efb4016b9157479c82b5b6d");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -14959,7 +14978,7 @@ Wall time: 44min 11s
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-9268e5090a558f3145dc1efb3e8d6fa9"}, "mark": {"type": "bar", "opacity": 0.7}, "encoding": {"color": {"type": "nominal", "field": "Feature Selection", "title": "Feature Selection Step"}, "column": {"type": "nominal", "field": "SMOTE", "title": "SMOTE Methods"}, "x": {"type": "nominal", "axis": {"labelAngle": 0}, "field": "Embeddings", "title": "Training on 10d Embedding Space"}, "y": {"type": "quantitative", "field": "AUC", "scale": {"domain": [0.5, 0.8]}, "stack": false, "title": "AUC Scores"}}, "width": 250, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-9268e5090a558f3145dc1efb3e8d6fa9": [{"AUC": 0.7703210000131719, "Embeddings": "False", "SMOTE": "Normal", "Feature Selection": "False"}, {"AUC": 0.5269066007484585, "Embeddings": "True", "SMOTE": "Normal", "Feature Selection": "False"}, {"AUC": 0.7532867632315727, "Embeddings": "False", "SMOTE": "Borderline", "Feature Selection": "False"}, {"AUC": 0.5094976956434563, "Embeddings": "True", "SMOTE": "Borderline", "Feature Selection": "False"}, {"AUC": 0.7619860933655901, "Embeddings": "False", "SMOTE": "KMeans", "Feature Selection": "False"}, {"AUC": 0.5909339047025266, "Embeddings": "True", "SMOTE": "KMeans", "Feature Selection": "False"}, {"AUC": 0.757086134198583, "Embeddings": "False", "SMOTE": "KMeans", "Feature Selection": "True"}, {"AUC": 0.7590502158001731, "Embeddings": "False", "SMOTE": "Borderline", "Feature Selection": "True"}, {"AUC": 0.7668948338214265, "Embeddings": "False", "SMOTE": "Normal", "Feature Selection": "True"}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-643d44d8ab1ed705aaedc2ca260de219"}, "facet": {"column": {"type": "nominal", "field": "SMOTE", "title": "SMOTE Methods"}}, "spec": {"layer": [{"mark": "bar", "encoding": {"x": {"type": "nominal", "axis": {"labelAngle": 0}, "field": "Embeddings", "title": "Training on 10d Embedding Space"}, "y": {"type": "quantitative", "field": "AUC", "scale": {"domain": [0.45, 0.8]}, "stack": false, "title": "AUC Scores"}}, "width": 250}, {"mark": {"type": "text", "align": "center", "baseline": "middle", "color": "white", "dy": 10, "thickness": 12}, "encoding": {"text": {"type": "nominal", "field": "AUC", "format": ".4f"}, "x": {"type": "nominal", "axis": {"labelAngle": 0}, "field": "Embeddings", "title": "Training on 10d Embedding Space"}, "y": {"type": "quantitative", "field": "AUC", "scale": {"domain": [0.45, 0.8]}, "stack": false, "title": "AUC Scores"}}, "width": 250}]}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-643d44d8ab1ed705aaedc2ca260de219": [{"AUC": 0.7703210000131719, "Embeddings": "False", "SMOTE": "Normal", "Feature Selection": "False"}, {"AUC": 0.5269066007484585, "Embeddings": "True", "SMOTE": "Normal", "Feature Selection": "False"}, {"AUC": 0.7532867632315727, "Embeddings": "False", "SMOTE": "Borderline", "Feature Selection": "False"}, {"AUC": 0.5094976956434563, "Embeddings": "True", "SMOTE": "Borderline", "Feature Selection": "False"}, {"AUC": 0.7619860933655901, "Embeddings": "False", "SMOTE": "KMeans", "Feature Selection": "False"}, {"AUC": 0.5909339047025266, "Embeddings": "True", "SMOTE": "KMeans", "Feature Selection": "False"}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 

@@ -33,7 +33,12 @@ To interact with the project, take the following steps:
 
 ## Results Summary
 In summary:
-1. The full Customer Segmentation report can be found [here]()
+1. The full Customer Segmentation report can be found [here](). However, briefly, 7 Clusters were discovered that have
+   a proportion of customers that is x2 higher the proportion of customers in the general population (Customer Factor 
+   of 2) as shown below:
+   
+![](data/processed/customer_factor_vs_clusters.jpg)
+
 1. The resultant Supervised Model performed well. It achieved an **AUC of 0.767** as shown below:
 
 ![](data/processed/model_auc.jpg)
